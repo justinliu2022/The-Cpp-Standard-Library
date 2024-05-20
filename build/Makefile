@@ -522,29 +522,29 @@ cppStl/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppStl.dir\build.make CMakeFiles/cppStl.dir/build
 .PHONY : cppStl/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+util/pair1.obj: util/pair1.cpp.obj
+.PHONY : util/pair1.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppStl.dir\build.make CMakeFiles/cppStl.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+util/pair1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppStl.dir\build.make CMakeFiles/cppStl.dir/util/pair1.cpp.obj
+.PHONY : util/pair1.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+util/pair1.i: util/pair1.cpp.i
+.PHONY : util/pair1.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppStl.dir\build.make CMakeFiles/cppStl.dir/main.cpp.i
-.PHONY : main.cpp.i
+util/pair1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppStl.dir\build.make CMakeFiles/cppStl.dir/util/pair1.cpp.i
+.PHONY : util/pair1.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+util/pair1.s: util/pair1.cpp.s
+.PHONY : util/pair1.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppStl.dir\build.make CMakeFiles/cppStl.dir/main.cpp.s
-.PHONY : main.cpp.s
+util/pair1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppStl.dir\build.make CMakeFiles/cppStl.dir/util/pair1.cpp.s
+.PHONY : util/pair1.cpp.s
 
 # Help Target
 help:
@@ -586,9 +586,9 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... cppStl
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... util/pair1.obj
+	@echo ... util/pair1.i
+	@echo ... util/pair1.s
 .PHONY : help
 
 

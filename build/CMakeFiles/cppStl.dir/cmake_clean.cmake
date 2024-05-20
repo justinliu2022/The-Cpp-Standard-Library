@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cppStl.dir/main.cpp.obj"
-  "CMakeFiles/cppStl.dir/main.cpp.obj.d"
+  "CMakeFiles/cppStl.dir/util/pair1.cpp.obj"
+  "CMakeFiles/cppStl.dir/util/pair1.cpp.obj.d"
   "cppStl.exe"
   "cppStl.exe.manifest"
   "cppStl.pdb"
