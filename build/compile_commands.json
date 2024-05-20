@@ -1,0 +1,8 @@
+[
+{
+  "directory": "E:/CppProject/The-Cpp-Standard-Library/build",
+  "command": "D:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe   -g -o CMakeFiles\\cppStl.dir\\main.cpp.obj -c E:\\CppProject\\The-Cpp-Standard-Library\\main.cpp",
+  "file": "E:/CppProject/The-Cpp-Standard-Library/main.cpp",
+  "output": "CMakeFiles/cppStl.dir/main.cpp.obj"
+}
+]
