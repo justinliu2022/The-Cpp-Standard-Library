@@ -522,29 +522,29 @@ cppStl/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppStl.dir\build.make CMakeFiles/cppStl.dir/build
 .PHONY : cppStl/fast
 
-util/pair1.obj: util/pair1.cpp.obj
-.PHONY : util/pair1.obj
+util/tuple1.obj: util/tuple1.cpp.obj
+.PHONY : util/tuple1.obj
 
 # target to build an object file
-util/pair1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppStl.dir\build.make CMakeFiles/cppStl.dir/util/pair1.cpp.obj
-.PHONY : util/pair1.cpp.obj
+util/tuple1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppStl.dir\build.make CMakeFiles/cppStl.dir/util/tuple1.cpp.obj
+.PHONY : util/tuple1.cpp.obj
 
-util/pair1.i: util/pair1.cpp.i
-.PHONY : util/pair1.i
+util/tuple1.i: util/tuple1.cpp.i
+.PHONY : util/tuple1.i
 
 # target to preprocess a source file
-util/pair1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppStl.dir\build.make CMakeFiles/cppStl.dir/util/pair1.cpp.i
-.PHONY : util/pair1.cpp.i
+util/tuple1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppStl.dir\build.make CMakeFiles/cppStl.dir/util/tuple1.cpp.i
+.PHONY : util/tuple1.cpp.i
 
-util/pair1.s: util/pair1.cpp.s
-.PHONY : util/pair1.s
+util/tuple1.s: util/tuple1.cpp.s
+.PHONY : util/tuple1.s
 
 # target to generate assembly for a file
-util/pair1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppStl.dir\build.make CMakeFiles/cppStl.dir/util/pair1.cpp.s
-.PHONY : util/pair1.cpp.s
+util/tuple1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppStl.dir\build.make CMakeFiles/cppStl.dir/util/tuple1.cpp.s
+.PHONY : util/tuple1.cpp.s
 
 # Help Target
 help:
@@ -586,9 +586,9 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... cppStl
-	@echo ... util/pair1.obj
-	@echo ... util/pair1.i
-	@echo ... util/pair1.s
+	@echo ... util/tuple1.obj
+	@echo ... util/tuple1.i
+	@echo ... util/tuple1.s
 .PHONY : help
 
 
