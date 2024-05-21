@@ -16,6 +16,11 @@ int main()
     cout << "max(long long int): " << numeric_limits<long long int>::max() << endl;
     cout << endl;
 
+    // print maximum of floating-point types
+    cout << "max(float): " << numeric_limits<float>::max() << endl;
+    cout << "max(double): " << numeric_limits<double>::max() << endl;
+    cout << "max(long double): " << numeric_limits<long double>::max() << endl;
+
     // print whether char is signed
     cout << "is_signed(char): " << numeric_limits<char>::is_signed << endl;
     cout << endl;
