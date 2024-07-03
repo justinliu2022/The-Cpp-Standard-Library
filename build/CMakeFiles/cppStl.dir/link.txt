@@ -1,3 +1,0 @@
-"D:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cppStl.dir/objects.a
-D:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cppStl.dir/objects.a @CMakeFiles\cppStl.dir\objects1.rsp
-D:\Qt\Tools\mingw1120_64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\cppStl.dir/objects.a -Wl,--no-whole-archive -o cppStl.exe -Wl,--out-implib,libcppStl.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cppStl.dir\linkLibs.rsp
